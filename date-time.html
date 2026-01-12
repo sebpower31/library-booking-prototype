@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Date & Time</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+  <a href="room-finder.html">←</a>
+  <h1>Select Date & Time</h1>
+</header>
+
+<main class="container">
+
+  <p><strong>Booking for</strong><br>Room 3.07</p>
+
+  <!-- Steps -->
+  <div class="steps">
+    <div class="step active">1</div>
+    <div class="step-line"></div>
+    <div class="step">2</div>
+    <div class="step-line"></div>
+    <div class="step">3</div>
+  </div>
+
+  <!-- Calendar -->
+  <div class="calendar">
+    <div class="calendar-header">
+      <span>‹</span>
+      <span>November 2025</span>
+      <span>›</span>
+    </div>
+
+    <div class="calendar-grid">
+      <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+      <span></span><span></span><span></span><span></span><span></span><span></span><span>1</span>
+      <span>2</span><span>3</span><span>4</span><span>5</span><span>6</span><span>7</span><span>8</span>
+      <span>9</span><span>10</span><span class="active-date">11</span><span>12</span><span>13</span><span>14</span><span>15</span>
+      <span>16</span><span>17</span><span>18</span><span>19</span><span>20</span><span>21</span><span>22</span>
+    </div>
+  </div>
+
+  <!-- Time slots -->
+  <h3>Choose Time Slot</h3>
+
+  <div class="time-grid">
+    <input type="radio" id="t1" name="time">
+    <label for="t1">8am–10am</label>
+
+    <input type="radio" id="t2" name="time">
+    <label for="t2">10am–12pm</label>
+
+    <label class="disabled">12pm–2pm</label>
+
+    <label class="disabled">2pm–4pm</label>
+
+    <input type="radio" id="t3" name="time">
+    <label for="t3">6pm–8pm</label>
+
+    <input type="radio" id="t4" name="time">
+    <label for="t4">8pm–10pm</label>
+  </div>
+
+  <a href="review.html" class="primary-btn">Next</a>
+
+</main>
+</body>
+</html>
+
+
